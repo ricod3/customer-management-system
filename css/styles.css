@@ -1,0 +1,32 @@
+/* Define a transition duration during page visits */
+html.is-changing .transition-fade {
+    transition: opacity 0.4s;
+    opacity: 1;
+}
+
+/* Define the styles for the unloaded pages */
+html.is-animating .transition-fade {
+    opacity: 0;
+}
+
+.btn-dark {
+    transition: all .5s ease !important;
+    border: #58aefc !important;
+    background: #012a4a !important;
+}
+
+.btn-dark:hover {
+    color: #e5e6e7 !important;
+    background-color: #01497c !important;
+}
+
+.btn-danger {
+    transition: all .5s ease !important;
+    border: #4f000b !important;
+    background: #4f000b !important;
+}
+
+.btn-danger:hover {
+    color: #e5e6e7 !important;
+    background-color: #720026 !important;
+}
